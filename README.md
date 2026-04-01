@@ -1,13 +1,12 @@
-# 🪓 Evolution Mine Plugin
+# Evolution Mine Plugin
 
 [![Paper](https://img.shields.io/badge/Paper-1.21+-green)](https://papermc.io)
-[![Java](https://img.shields.io/badge/Java-17+-orange)](https://www.oracle.com/java/)
-[![License](https://img.shields.io/badge/License-MIT-blue)](#)
-[![Status](https://img.shields.io/badge/Status-Active-brightgreen)](#)
+[![Java](https://img.shields.io/badge/Java-21+-orange)](https://www.oracle.com/java/)
+
 
 A powerful, fully customizable **mining progression system** for Minecraft servers. Create unlimited mine areas with progressive levels, auto-regeneration, NPC integration, and PlaceholderAPI support!
 
-**Perfect for:** Prison • Economy • Skyblock • RPG • Survival servers
+**Perfect for:** Prison • Evolution • BoxPVP • SkyPVP • Your Own Gamemode
 
 ---
 
@@ -15,7 +14,7 @@ A powerful, fully customizable **mining progression system** for Minecraft serve
 
 | 📖 Documentation | 🎮 Features | 🚀 Quick Start | 💻 Code |
 |---|---|---|---|
-| [Full Wiki](https://github.com/Amit4411/evowiki/wiki) | [See Features](#-features) | [Installation](#-installation) | [Source Code](https://github.com/Amit4411/evolution-mine) |
+| [Full Wiki](https://github.com/CoruptedGames/Evolution_Mine-Plugin/wiki) | [See Features](#-features) | [Installation](#-installation) | [Source Code](https://github.com/Amit4411/evolution-mine) |
 | [Commands](https://github.com/Amit4411/evowiki/wiki/Commands) | [Server Types](#-perfect-for) | [Setup Guide](https://github.com/Amit4411/evowiki/wiki/Setup-Guide) | [Issues](https://github.com/Amit4411/evolution-mine/issues) |
 | [FAQ](https://github.com/Amit4411/evowiki/wiki/FAQ) | [21 Commands](https://github.com/Amit4411/evowiki/wiki/Commands) | [First Mine in 5 min](#-5-minute-setup) | [Placeholders](https://github.com/Amit4411/evowiki/wiki/Placeholders) |
 
