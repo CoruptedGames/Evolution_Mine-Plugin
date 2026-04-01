@@ -1,7 +1,6 @@
 # Evolution Mine Plugin
 
-[![Paper](https://img.shields.io/badge/Paper-1.21+-green)](https://papermc.io)
-[![Java](https://img.shields.io/badge/Java-21+-orange)](https://www.oracle.com/java/)
+[![Paper](https://img.shields.io/badge/Paper-1.21+-green)](https://papermc.io)   [![Java](https://img.shields.io/badge/Java-21+-orange)](https://www.oracle.com/java/)
 
 
 A powerful, fully customizable **mining progression system** for Minecraft servers. Create unlimited mine areas with progressive levels, auto-regeneration, NPC integration, and PlaceholderAPI support!
@@ -12,11 +11,7 @@ A powerful, fully customizable **mining progression system** for Minecraft serve
 
 ## 📋 Quick Links
 
-| 📖 Documentation | 🎮 Features | 🚀 Quick Start | 💻 Code |
-|---|---|---|---|
-| [Full Wiki](https://github.com/CoruptedGames/Evolution_Mine-Plugin/wiki) | [See Features](#-features) | [Installation](#-installation) | [Source Code](https://github.com/Amit4411/evolution-mine) |
-| [Commands](https://github.com/Amit4411/evowiki/wiki/Commands) | [Server Types](#-perfect-for) | [Setup Guide](https://github.com/Amit4411/evowiki/wiki/Setup-Guide) | [Issues](https://github.com/Amit4411/evolution-mine/issues) |
-| [FAQ](https://github.com/Amit4411/evowiki/wiki/FAQ) | [21 Commands](https://github.com/Amit4411/evowiki/wiki/Commands) | [First Mine in 5 min](#-5-minute-setup) | [Placeholders](https://github.com/Amit4411/evowiki/wiki/Placeholders) |
+# [Wiki](https://github.com/CoruptedGames/Evolution_Mine-Plugin/wiki) | [Commands](https://github.com/CoruptedGames/Evolution_Mine-Plugin/wiki/Commands) | [Setup Guide](https://github.com/CoruptedGames/Evolution_Mine-Plugin/wiki/Setup%E2%80%90Guide) | [Troubleshoot](https://github.com/CoruptedGames/Evolution_Mine-Plugin/wiki/Troubleshooting) | [FAQ](https://github.com/CoruptedGames/Evolution_Mine-Plugin/wiki/FAQ)
 
 ---
 
@@ -25,44 +20,35 @@ A powerful, fully customizable **mining progression system** for Minecraft serve
 ### 🎯 Core Features
 
 ✅ **Create Unlimited Mines** - No limit on number of mine areas  
-✅ **Progressive Levels** - 1-unlimited upgrade levels per mine  
-✅ **Custom Ore Distribution** - Different blocks at different levels  
+✅ **Progressive Levels** - Unlimited upgrade levels per mine  
+✅ **Custom Ore Distribution** - Different blocks at different levels with different percentage of blocks
 ✅ **Auto-Regeneration** - Mines refill automatically on timer  
 ✅ **Static & Dynamic Mines** - Choose mine type and behavior  
 ✅ **NPC Integration** - Link Citizens NPCs for upgrades  
 ✅ **Area Linking** - Create hierarchical mine structures  
 ✅ **Safe Teleportation** - Prevent player suffocation  
-✅ **Built-in PlaceholderAPI** - 9 ready-to-use placeholders  
-✅ **Full WorldEdit/WorldGuard Support** - Integrate with protection plugins  
+✅ **Built-in PlaceholderAPI** - Ready-to-use placeholders  
+✅ **Full WorldEdit/WorldGuard Support** - Implemented WorldGuard region bypass: Allows mining within defined areas even when global block-break flags are set to 'Deny'
 ✅ **Complete Permission System** - `evomine.admin` for all admin controls  
-✅ **21 Admin Commands** - Full control via commands  
+✅ **Commands** - Full control via commands  
 ✅ **YAML Configuration** - Easy to customize  
 
 ---
 
-## 🎮 Perfect For
 
-| Server Type | Rating | Why? |
-|---|---|---|
-| **Prison** | ⭐⭐⭐⭐⭐ | Core gameplay mechanic |
-| **Economy** | ⭐⭐⭐⭐⭐ | Currency-based progression |
-| **Skyblock** | ⭐⭐⭐⭐ | Limited resource management |
-| **RPG** | ⭐⭐⭐⭐ | Level-based progression |
-| **Survival** | ⭐⭐⭐ | Vanilla+ enhancement |
-| **Adventure** | ⭐⭐⭐ | Custom progression |
 
----
+
 
 ## 📥 Installation
 
 ### Requirements
 
 - **Server:** Paper 1.21 or later
-- **Java:** Java 17 or higher
+- **Java:** Java 21 or higher
 - **Plugins (Required):**
-  - [Citizens](https://www.spigotmc.org/resources/citizens.13811/) - NPC support
-  - [WorldEdit](https://enginehub.org/worldedit/) - Region selection
-  - [WorldGuard](https://enginehub.org/worldguard/) - Region protection
+  - [Citizens](https://www.spigotmc.org/resources/citizens.13811/) |  [Free Version](https://ci.citizensnpcs.co/job/citizens2/) - NPC support |
+  - [WorldEdit](https://modrinth.com/plugin/worldedit) - Region selection
+  - [WorldGuard](https://modrinth.com/plugin/worldguard) - Region protection
   - [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/) - Placeholders
 
 ### Setup Steps
