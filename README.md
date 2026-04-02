@@ -21,14 +21,14 @@ A powerful, fully customizable **mining progression system** for Minecraft serve
 
 ✅ **Create Unlimited Mines** - No limit on number of mine areas  
 ✅ **Progressive Levels** - Unlimited upgrade levels per mine  
-✅ **Custom Ore Distribution** - Different blocks at different levels with different percentage of blocks
+✅ **Custom Ore Distribution** - Different blocks at different levels with different percentage of blocks  
 ✅ **Auto-Regeneration** - Mines refill automatically on timer  
 ✅ **Static & Dynamic Mines** - Choose mine type and behavior  
 ✅ **NPC Integration** - Link Citizens NPCs for upgrades  
 ✅ **Area Linking** - Create hierarchical mine structures  
 ✅ **Safe Teleportation** - Prevent player suffocation  
 ✅ **Built-in PlaceholderAPI** - Ready-to-use placeholders  
-✅ **Full WorldEdit/WorldGuard Support** - Implemented WorldGuard region bypass: Allows mining within defined areas even when global block-break flags are set to 'Deny'
+✅ **Full WorldEdit/WorldGuard Support** - Implemented WorldGuard region bypass: Allows mining within defined areas even when global block-break flags are set to 'Deny'  
 ✅ **Complete Permission System** - `evomine.admin` for all admin controls  
 ✅ **Commands** - Full control via commands  
 ✅ **YAML Configuration** - Easy to customize  
