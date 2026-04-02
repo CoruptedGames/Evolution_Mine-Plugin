@@ -11,7 +11,7 @@ A powerful, fully customizable **mining progression system** for Minecraft serve
 
 ## 📋 Quick Links
 
-# [Wiki](https://github.com/CoruptedGames/Evolution_Mine-Plugin/wiki) | [Commands](https://github.com/CoruptedGames/Evolution_Mine-Plugin/wiki/Commands) | [Setup Guide](https://github.com/CoruptedGames/Evolution_Mine-Plugin/wiki/Setup%E2%80%90Guide) | [Troubleshoot](https://github.com/CoruptedGames/Evolution_Mine-Plugin/wiki/Troubleshooting) | [FAQ](https://github.com/CoruptedGames/Evolution_Mine-Plugin/wiki/FAQ) | [Discord](https://discord.gg/9xEH6abZ8k) | [Support](ko-fi.com/corruptedgames](https://ko-fi.com/corruptedgames)
+# [Wiki](https://github.com/CoruptedGames/Evolution_Mine-Plugin/wiki) | [Commands](https://github.com/CoruptedGames/Evolution_Mine-Plugin/wiki/Commands) | [Setup Guide](https://github.com/CoruptedGames/Evolution_Mine-Plugin/wiki/Setup%E2%80%90Guide) | [Troubleshoot](https://github.com/CoruptedGames/Evolution_Mine-Plugin/wiki/Troubleshooting) | [FAQ](https://github.com/CoruptedGames/Evolution_Mine-Plugin/wiki/FAQ) | [Discord](https://discord.gg/9xEH6abZ8k) | [Support](https://ko-fi.com/corruptedgames)
 
 ---
 
