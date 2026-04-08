@@ -1,0 +1,55 @@
+stop-spam: "&c⏳ Por favor, espera antes de interactuar de nuevo." # This is the message that comes when a player spam clicks on NPC.
+
+already-max: "&e⬆ Esta mina ya está en el nivel MÁXIMO." # This message will come if player tries to donate but mine already at max level.
+
+reached-max: "&a🎉 ¡La mina ha alcanzado el nivel máximo!" # This message will come when player donates and mine reaches max level.
+
+missing-setitem: "&4❌ Contacta al administrador, dile que establezca el objeto para " # This message will come if no item is set for that mine. To set it, run /evo mine setitem (minename)
+
+no-item: # When player doesn't have required item
+  complete: "&cNo tienes el objeto especial requerido" # Plugin will not automatically put item name; it will send this complete message instead.
+  before-itemname: "&cNo tienes ningún &6" # Plugin will automatically put item name here. Example - You don't have any IRON to donate.
+  after-itemname: "&c para donar."
+
+have-item:
+  asking: "&6¿Cuántos deseas donar? &eEscribe el número en el chat." # Asking how many items player wants to donate.
+  telling:
+    msg: "&a¡Tienes &6" # It gives output like - You have (number) (itemname stored in minecraft).
+    complete-before: "&a¡Tienes &6" # Here will come the count of items.
+    complete-after: "&a puedes darme para mejorar la mina."
+
+interact-again: "&a✓ Puedes interactuar nuevamente." # Message that player can interact again with NPC.
+
+no-session: "&cNo hay sesión de donación activa. &6Haz clic en el NPC de nuevo." # If player uses /evo yes or no and they talked with NPC a while ago, NPC is no longer in session. Player needs to click again.
+
+invalid-number: "&cPor favor, introduce un &6número positivo&c." # If after running /evo yes, player types a letter or negative value.
+
+invalid-item: "&4❌ El objeto configurado para esta mina es inválido. Contacta a un administrador." # If item name was removed from config file.
+
+big-number:
+  have: "&cSolo tienes &6" # This tells how many items they have when they enter more than available.
+  not-have: "&cNo tienes tantos &6" # Then material/item name will come automatically (if autoname-item is true).
+  custom-msg: "&cNo tienes suficientes objetos especiales&c." # Complete owner message will be displayed (no minecraft material name, used when autoname-item is false).
+
+lvl-config-missing: "&4❌ Configuración del nivel faltante para el nivel &6" # Level number will be inserted here.
+lvl-config-missing-after: "&4❌. Contacta a un administrador."
+
+mine-upgraded: "&a✓ Mina mejorada al nivel &6" # Level number will be inserted here.
+mine-upgraded-after: "&a!" # Owner can customize this (e.g., change ! to something else).
+
+mine-not-config: "&4❌ La mina no está configurada correctamente. Contacta al administrador."
+
+item-accepted: "&a✓ Donación aceptada. Progreso: &6" # Then number of items player donated / items needed will come.
+
+only-need: "&eSolo &6" # Number of items needed to max.
+only-need-after: "&e objetos eran necesarios para maximizar la mina."
+
+remain: "&eTus objetos restantes &6" # Number of items remaining in inventory.
+remain-after: "&e no fueron utilizados."
+
+not-valid: "&cError: '&6" # The input from user will be here.
+not-valid-after: "&c' no es un número válido."
+
+enter-number-number-of-item: "&6Ingresa el número de objetos a donar." # When player runs /evo yes.
+
+cancel: "&e❌ Proceso de donación cancelado." # When player runs /evo no.

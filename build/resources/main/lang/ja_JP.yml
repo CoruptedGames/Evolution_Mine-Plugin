@@ -1,0 +1,55 @@
+stop-spam: "&c⏳ もう一度インタラクトする前にお待ちください。" # This is the message that comes when a player spam clicks on NPC.
+
+already-max: "&e⬆ このマインはすでに最大レベルです。" # This message will come if player tries to donate but mine already at max level.
+
+reached-max: "&a🎉 マインが最大レベルに達しました！" # This message will come when player donates and mine reaches max level.
+
+missing-setitem: "&4❌ 管理者に連絡して、以下のアイテムを設定するよう伝えてください " # This message will come if no item is set for that mine. To set it, run /evo mine setitem (minename)
+
+no-item: # When player doesn't have required item
+  complete: "&c必要な特別なアイテムを持っていません" # Plugin will not automatically put item name; it will send this complete message instead.
+  before-itemname: "&c持っていません &6" # Plugin will automatically put item name here. Example - You don't have any IRON to donate.
+  after-itemname: "&c を寄付します。"
+
+have-item:
+  asking: "&6いくつ寄付しますか？&eチャットに数字を入力してください。" # Asking how many items player wants to donate.
+  telling:
+    msg: "&a持っています &6" # It gives output like - You have (number) (itemname stored in minecraft).
+    complete-before: "&a持っています &6" # Here will come the count of items.
+    complete-after: "&a 個、マインのアップグレードに使用できます。"
+
+interact-again: "&a✓ もう一度インタラクトできます。" # Message that player can interact again with NPC.
+
+no-session: "&cアクティブな寄付セッションが見つかりません。&6NPCをもう一度クリックしてください。" # If player uses /evo yes or no and they talked with NPC a while ago, NPC is no longer in session. Player needs to click again.
+
+invalid-number: "&c&6正の数&cを入力してください。" # If after running /evo yes, player types a letter or negative value.
+
+invalid-item: "&4❌ このマイン用に設定されたアイテムは無効です。管理者に連絡してください。" # If item name was removed from config file.
+
+big-number:
+  have: "&c持っているのは &6" # This tells how many items they have when they enter more than available.
+  not-have: "&cそんなに多くは持っていません &6" # Then material/item name will come automatically (if autoname-item is true).
+  custom-msg: "&c十分な特別なアイテムを持っていません&c。" # Complete owner message will be displayed (no minecraft material name, used when autoname-item is false).
+
+lvl-config-missing: "&4❌ レベル &6" # Level number will be inserted here.
+lvl-config-missing-after: "&4❌ の設定がありません。管理者に連絡してください。"
+
+mine-upgraded: "&a✓ マインがレベル &6" # Level number will be inserted here.
+mine-upgraded-after: "&a にアップグレードされました！" # Owner can customize this (e.g., change ! to something else).
+
+mine-not-config: "&4❌ マインが正しく設定されていません。管理者に連絡してください。"
+
+item-accepted: "&a✓ 寄付が受け入れられました。進捗: &6" # Then number of items player donated / items needed will come.
+
+only-need: "&e必要なのは &6" # Number of items needed to max.
+only-need-after: "&e 個のアイテムだけでマインを最大にできます。"
+
+remain: "&e残りの &6" # Number of items remaining in inventory.
+remain-after: "&e 個のアイテムは使用されませんでした。"
+
+not-valid: "&cエラー: '&6" # The input from user will be here.
+not-valid-after: "&c' は有効な数値ではありません。"
+
+enter-number-number-of-item: "&6寄付するアイテムの数を入力してください。" # When player runs /evo yes.
+
+cancel: "&e❌ 寄付プロセスがキャンセルされました。" # When player runs /evo no.

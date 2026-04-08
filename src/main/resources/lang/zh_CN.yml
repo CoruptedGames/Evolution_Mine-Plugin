@@ -1,0 +1,55 @@
+stop-spam: "&c⏳ 请稍等后再交互。" # This is the message that comes when a player spam clicks on NPC.
+
+already-max: "&e⬆ 这个矿山已经是最大等级。" # This message will come if player tries to donate but mine already at max level.
+
+reached-max: "&a🎉 矿山已达到最大等级！" # This message will come when player donates and mine reaches max level.
+
+missing-setitem: "&4❌ 联系管理员，告诉他们为该矿山设置物品" # This message will come if no item is set for that mine. To set it, run /evo mine setitem (minename)
+
+no-item: # When player doesn't have required item
+  complete: "&c你没有所需的特殊物品" # Plugin will not automatically put item name; it will send this complete message instead.
+  before-itemname: "&c你没有任何 &6" # Plugin will automatically put item name here. Example - You don't have any IRON to donate.
+  after-itemname: "&c 来捐赠。"
+
+have-item:
+  asking: "&6你想捐赠多少个？&e在聊天中输入数字。" # Asking how many items player wants to donate.
+  telling:
+    msg: "&a你有 &6" # It gives output like - You have (number) (itemname stored in minecraft).
+    complete-before: "&a你有 &6" # Here will come the count of items.
+    complete-after: "&a 个可以用来升级矿山。"
+
+interact-again: "&a✓ 你现在可以再次交互。" # Message that player can interact again with NPC.
+
+no-session: "&c没有找到活跃的捐赠会话。&6请重新点击NPC。" # If player uses /evo yes or no and they talked with NPC a while ago, NPC is no longer in session. Player needs to click again.
+
+invalid-number: "&c请输入一个 &6正数&c。" # If after running /evo yes, player types a letter or negative value.
+
+invalid-item: "&4❌ 该矿山配置的物品无效。请联系管理员。" # If item name was removed from config file.
+
+big-number:
+  have: "&c你只有 &6" # This tells how many items they have when they enter more than available.
+  not-have: "&c你没有那么多 &6" # Then material/item name will come automatically (if autoname-item is true).
+  custom-msg: "&c你没有足够的特殊物品&c。" # Complete owner message will be displayed (no minecraft material name, used when autoname-item is false).
+
+lvl-config-missing: "&4❌ 第 &6" # Level number will be inserted here.
+lvl-config-missing-after: "&4❌ 级的配置缺失。请联系管理员。"
+
+mine-upgraded: "&a✓ 矿山升级至第 &6" # Level number will be inserted here.
+mine-upgraded-after: "&a 级！" # Owner can customize this (e.g., change ! to something else).
+
+mine-not-config: "&4❌ 矿山配置不正确。请联系管理员。"
+
+item-accepted: "&a✓ 捐赠已接受。进度: &6" # Then number of items player donated / items needed will come.
+
+only-need: "&e只需要 &6" # Number of items needed to max.
+only-need-after: "&e 个物品即可升级矿山到最大。"
+
+remain: "&e你剩余的 &6" # Number of items remaining in inventory.
+remain-after: "&e 个物品未被使用。"
+
+not-valid: "&c错误：'&6" # The input from user will be here.
+not-valid-after: "&c' 不是一个有效的数字。"
+
+enter-number-number-of-item: "&6输入要捐赠的物品数量。" # When player runs /evo yes.
+
+cancel: "&e❌ 捐赠过程已取消。" # When player runs /evo no.

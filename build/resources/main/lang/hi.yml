@@ -1,0 +1,55 @@
+stop-spam: "&c⏳ कृपया फिर से इंटरैक्ट करने से पहले प्रतीक्षा करें।" # This is the message that comes when a player spam clicks on NPC.
+
+already-max: "&e⬆ यह खान पहले से ही अधिकतम स्तर पर है।" # This message will come if player tries to donate but mine already at max level.
+
+reached-max: "&a🎉 खान अधिकतम स्तर तक पहुंच गई है!" # This message will come when player donates and mine reaches max level.
+
+missing-setitem: "&4❌ व्यवस्थापक से संपर्क करें, उन्हें बताएं कि " # This message will come if no item is set for that mine. To set it, run /evo mine setitem (minename)
+
+no-item: # When player doesn't have required item
+  complete: "&cआपके पास आवश्यक विशेष वस्तु नहीं है" # Plugin will not automatically put item name; it will send this complete message instead.
+  before-itemname: "&cआपके पास कोई &6" # Plugin will automatically put item name here. Example - You don't have any IRON to donate.
+  after-itemname: "&c नहीं है दान करने के लिए।"
+
+have-item:
+  asking: "&6आप कितनी दान करना चाहते हैं? &eचैट में संख्या टाइप करें।" # Asking how many items player wants to donate.
+  telling:
+    msg: "&aआपके पास &6" # It gives output like - You have (number) (itemname stored in minecraft).
+    complete-before: "&aआपके पास &6" # Here will come the count of items.
+    complete-after: "&a है जो आप मेरे खान को अपग्रेड करने के लिए दे सकते हैं।"
+
+interact-again: "&a✓ आप फिर से इंटरैक्ट कर सकते हैं।" # Message that player can interact again with NPC.
+
+no-session: "&cकोई सक्रिय दान सत्र नहीं मिला। &6एनपीसी पर फिर से क्लिक करें।" # If player uses /evo yes or no and they talked with NPC a while ago, NPC is no longer in session. Player needs to click again.
+
+invalid-number: "&cकृपया एक &6सकारात्मक संख्या&c दर्ज करें।" # If after running /evo yes, player types a letter or negative value.
+
+invalid-item: "&4❌ इस खान के लिए कॉन्फ़िगर की गई वस्तु अमान्य है। किसी व्यवस्थापक से संपर्क करें।" # If item name was removed from config file.
+
+big-number:
+  have: "&cआपके पास केवल &6" # This tells how many items they have when they enter more than available.
+  not-have: "&cआपके पास इतनी सारी &6" # Then material/item name will come automatically (if autoname-item is true).
+  custom-msg: "&cआपके पास पर्याप्त विशेष वस्तु नहीं है&c।" # Complete owner message will be displayed (no minecraft material name, used when autoname-item is false).
+
+lvl-config-missing: "&4❌ स्तर &6" # Level number will be inserted here.
+lvl-config-missing-after: "&4❌ के लिए कॉन्फ़िगरेशन लापता है। किसी व्यवस्थापक से संपर्क करें।"
+
+mine-upgraded: "&a✓ खान स्तर &6" # Level number will be inserted here.
+mine-upgraded-after: "&a तक अपग्रेड हुई!" # Owner can customize this (e.g., change ! to something else).
+
+mine-not-config: "&4❌ खान सही तरीके से कॉन्फ़िगर नहीं की गई है। व्यवस्थापक से संपर्क करें।"
+
+item-accepted: "&a✓ दान स्वीकृत। प्रगति: &6" # Then number of items player donated / items needed will come.
+
+only-need: "&eकेवल &6" # Number of items needed to max.
+only-need-after: "&e वस्तुओं की आवश्यकता खान को अधिकतम करने के लिए है।"
+
+remain: "&eआपकी शेष &6" # Number of items remaining in inventory.
+remain-after: "&e वस्तुओं का उपयोग नहीं किया गया।"
+
+not-valid: "&cत्रुटि: '&6" # The input from user will be here.
+not-valid-after: "&c' एक वैध संख्या नहीं है।"
+
+enter-number-number-of-item: "&6दान करने के लिए वस्तुओं की संख्या दर्ज करें।" # When player runs /evo yes.
+
+cancel: "&e❌ दान प्रक्रिया रद्द कर दी गई।" # When player runs /evo no.

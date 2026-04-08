@@ -1,0 +1,55 @@
+stop-spam: "&c⏳ Thoda rukiye phir se interact karne se pehle." # This is the message that comes when a player spam clicks on NPC.
+
+already-max: "&e⬆ Yeh khaan pehle se hi maximum level par hai." # This message will come if player tries to donate but mine already at max level.
+
+reached-max: "&a🎉 Khaan maximum level tak pahunch gaya!" # This message will come when player donates and mine reaches max level.
+
+missing-setitem: "&4❌ Admin se contact kariye, unhe batayiye ke " # This message will come if no item is set for that mine. To set it, run /evo mine setitem (minename)
+
+no-item: # When player doesn't have required item
+  complete: "&cApke paas zaroori special item nahi hai" # Plugin will not automatically put item name; it will send this complete message instead.
+  before-itemname: "&cApke paas koi bhi &6" # Plugin will automatically put item name here. Example - You don't have any IRON to donate.
+  after-itemname: "&c nahi hai donate karne ke liye."
+
+have-item:
+  asking: "&6Aap kitna donate karna chahte hain? &eChat mein number type kariye." # Asking how many items player wants to donate.
+  telling:
+    msg: "&aApke paas &6" # It gives output like - You have (number) (itemname stored in minecraft).
+    complete-before: "&aApke paas &6" # Here will come the count of items.
+    complete-after: "&a hai jo aap mera khaan upgrade karne ke liye de sakte hain."
+
+interact-again: "&a✓ Aap ab phir se interact kar sakte hain." # Message that player can interact again with NPC.
+
+no-session: "&cKoyi active donation session nahi mila. &6NPC par phir se click kariye." # If player uses /evo yes or no and they talked with NPC a while ago, NPC is no longer in session. Player needs to click again.
+
+invalid-number: "&cKripaya ek &6positive number&c dalje." # If after running /evo yes, player types a letter or negative value.
+
+invalid-item: "&4❌ Is khaan ke liye configure ki gayi item invalid hai. Kisi admin se contact kariye." # If item name was removed from config file.
+
+big-number:
+  have: "&cApke paas sirf &6" # This tells how many items they have when they enter more than available.
+  not-have: "&cApke paas itni saari &6" # Then material/item name will come automatically (if autoname-item is true).
+  custom-msg: "&cApke paas utni special items nahi hain&c." # Complete owner message will be displayed (no minecraft material name, used when autoname-item is false).
+
+lvl-config-missing: "&4❌ Level &6" # Level number will be inserted here.
+lvl-config-missing-after: "&4❌ ke liye configuration missing hai. Kisi admin se contact kariye."
+
+mine-upgraded: "&a✓ Khaan level &6" # Level number will be inserted here.
+mine-upgraded-after: "&a tak upgrade ho gayi!" # Owner can customize this (e.g., change ! to something else).
+
+mine-not-config: "&4❌ Khaan sahi tarah se configure nahi hai. Admin se contact kariye."
+
+item-accepted: "&a✓ Donation accept ho gayi. Progress: &6" # Then number of items player donated / items needed will come.
+
+only-need: "&eKevl &6" # Number of items needed to max.
+only-need-after: "&e items ki zaroorat khaan ko maximum karne ke liye hai."
+
+remain: "&eApke paas baaki &6" # Number of items remaining in inventory.
+remain-after: "&e items use nahi hue."
+
+not-valid: "&cError: '&6" # The input from user will be here.
+not-valid-after: "&c' ek valid number nahi hai."
+
+enter-number-number-of-item: "&6Donate karne ke liye items ki sankhya dalje." # When player runs /evo yes.
+
+cancel: "&e❌ Donation process cancel ho gayi." # When player runs /evo no.

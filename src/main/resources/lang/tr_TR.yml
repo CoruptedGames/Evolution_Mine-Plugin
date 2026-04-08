@@ -1,0 +1,55 @@
+stop-spam: "&c⏳ Lütfen yeniden etkileşim kurmadan önce bekleyin." # This is the message that comes when a player spam clicks on NPC.
+
+already-max: "&e⬆ Bu maden zaten MAKSİMUM seviyededir." # This message will come if player tries to donate but mine already at max level.
+
+reached-max: "&a🎉 Maden maksimum seviyeye ulaştı!" # This message will come when player donates and mine reaches max level.
+
+missing-setitem: "&4❌ Bir yöneticiye başvurun ve " # This message will come if no item is set for that mine. To set it, run /evo mine setitem (minename)
+
+no-item: # When player doesn't have required item
+  complete: "&cGerekli özel eşyaya sahip değilsiniz" # Plugin will not automatically put item name; it will send this complete message instead.
+  before-itemname: "&cHiç &6" # Plugin will automatically put item name here. Example - You don't have any IRON to donate.
+  after-itemname: "&c yok."
+
+have-item:
+  asking: "&6Ne kadar bağışlamak istiyorsunuz? &eSohbette numarayı yazın." # Asking how many items player wants to donate.
+  telling:
+    msg: "&aSize &6" # It gives output like - You have (number) (itemname stored in minecraft).
+    complete-before: "&aSize &6" # Here will come the count of items.
+    complete-after: "&a madeni yükseltmek için verebilecek şeyler var."
+
+interact-again: "&a✓ Yeniden etkileşim kurabilirsiniz." # Message that player can interact again with NPC.
+
+no-session: "&cAktif bağış oturumu bulunamadı. &6NPC'ye tekrar tıklayın." # If player uses /evo yes or no and they talked with NPC a while ago, NPC is no longer in session. Player needs to click again.
+
+invalid-number: "&cLütfen &6pozitif bir sayı&c girin." # If after running /evo yes, player types a letter or negative value.
+
+invalid-item: "&4❌ Bu maden için yapılandırılan öğe geçersizdir. Bir yöneticiye başvurun." # If item name was removed from config file.
+
+big-number:
+  have: "&cSadece &6" # This tells how many items they have when they enter more than available.
+  not-have: "&cBu kadar &6" # Then material/item name will come automatically (if autoname-item is true).
+  custom-msg: "&cYeterli özel eşyaya sahip değilsiniz&c." # Complete owner message will be displayed (no minecraft material name, used when autoname-item is false).
+
+lvl-config-missing: "&4❌ Seviye &6" # Level number will be inserted here.
+lvl-config-missing-after: "&4❌ için seviye yapılandırması eksiktir. Bir yöneticiye başvurun."
+
+mine-upgraded: "&a✓ Maden seviye &6" # Level number will be inserted here.
+mine-upgraded-after: "&a olarak yükseltildi!" # Owner can customize this (e.g., change ! to something else).
+
+mine-not-config: "&4❌ Maden düzgün şekilde yapılandırılmamıştır. Yönetici ile iletişime geçin."
+
+item-accepted: "&a✓ Bağış kabul edildi. İlerleme: &6" # Then number of items player donated / items needed will come.
+
+only-need: "&eYalnızca &6" # Number of items needed to max.
+only-need-after: "&e madeni maksimize etmek için öğeler gerekiyordu."
+
+remain: "&eKalan &6" # Number of items remaining in inventory.
+remain-after: "&e öğeler kullanılmadı."
+
+not-valid: "&cHata: '&6" # The input from user will be here.
+not-valid-after: "&c' geçerli bir sayı değildir."
+
+enter-number-number-of-item: "&6Bağışlanacak öğe sayısını girin." # When player runs /evo yes.
+
+cancel: "&e❌ Bağış işlemi iptal edildi." # When player runs /evo no.

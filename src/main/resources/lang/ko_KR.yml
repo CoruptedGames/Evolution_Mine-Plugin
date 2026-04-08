@@ -1,0 +1,55 @@
+stop-spam: "&c⏳ 다시 상호작용하기 전에 잠시 기다려주세요." # This is the message that comes when a player spam clicks on NPC.
+
+already-max: "&e⬆ 이 광산은 이미 최대 레벨입니다." # This message will come if player tries to donate but mine already at max level.
+
+reached-max: "&a🎉 광산이 최대 레벨에 도달했습니다!" # This message will come when player donates and mine reaches max level.
+
+missing-setitem: "&4❌ 관리자에게 연락하고 " # This message will come if no item is set for that mine. To set it, run /evo mine setitem (minename)
+
+no-item: # When player doesn't have required item
+  complete: "&c필요한 특별 아이템이 없습니다" # Plugin will not automatically put item name; it will send this complete message instead.
+  before-itemname: "&c아무 &6" # Plugin will automatically put item name here. Example - You don't have any IRON to donate.
+  after-itemname: "&c도 없습니다."
+
+have-item:
+  asking: "&6얼마나 기부하시겠습니까? &e채팅에 숫자를 입력하세요." # Asking how many items player wants to donate.
+  telling:
+    msg: "&a당신은 &6" # It gives output like - You have (number) (itemname stored in minecraft).
+    complete-before: "&a당신은 &6" # Here will come the count of items.
+    complete-after: "&a 광산을 업그레이드하기 위해 줄 수 있습니다."
+
+interact-again: "&a✓ 다시 상호작용할 수 있습니다." # Message that player can interact again with NPC.
+
+no-session: "&c활성 기부 세션을 찾을 수 없습니다. &6NPC를 다시 클릭하세요." # If player uses /evo yes or no and they talked with NPC a while ago, NPC is no longer in session. Player needs to click again.
+
+invalid-number: "&c&6양의 숫자&c를 입력해주세요." # If after running /evo yes, player types a letter or negative value.
+
+invalid-item: "&4❌ 이 광산에 대해 구성된 아이템�� 유효하지 않습니다. 관리자에게 문의하세요." # If item name was removed from config file.
+
+big-number:
+  have: "&c당신은 &6" # This tells how many items they have when they enter more than available.
+  not-have: "&c그렇게 많은 &6" # Then material/item name will come automatically (if autoname-item is true).
+  custom-msg: "&c특별 아이템이 충분하지 않습니다&c." # Complete owner message will be displayed (no minecraft material name, used when autoname-item is false).
+
+lvl-config-missing: "&4❌ 레벨 &6" # Level number will be inserted here.
+lvl-config-missing-after: "&4❌에 대한 레벨 구성이 누락되었습니다. 관리자에게 문의하세요."
+
+mine-upgraded: "&a✓ 광산이 레벨 &6" # Level number will be inserted here.
+mine-upgraded-after: "&a로 업그레이드되었습니다!" # Owner can customize this (e.g., change ! to something else).
+
+mine-not-config: "&4❌ 광산이 올바르게 구성되지 않았습니다. 관리자에게 문의하세요."
+
+item-accepted: "&a✓ 기부가 수락되었습니다. 진행률: &6" # Then number of items player donated / items needed will come.
+
+only-need: "&e단 &6" # Number of items needed to max.
+only-need-after: "&e개의 아이템만 필요합니다."
+
+remain: "&e남은 &6" # Number of items remaining in inventory.
+remain-after: "&e개의 아이템이 사용되지 않았습니다."
+
+not-valid: "&c오류: '&6" # The input from user will be here.
+not-valid-after: "&c' 유효한 숫자가 아닙니다."
+
+enter-number-number-of-item: "&6기부할 아이템의 수를 입력하세요." # When player runs /evo yes.
+
+cancel: "&e❌ 기부 프로세스가 취소되었습니다." # When player runs /evo no.

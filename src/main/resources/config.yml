@@ -1,0 +1,24 @@
+delay-time-intraction: 5 # Time (in seconds) a player must wait before interacting with an NPC again
+target-block-distance: 100 # Maximum distance (in blocks) at which a target block can be detected
+mine-updater-debug: false # Enable (true) to log mine updater debug information in the console
+update-notify: true # Enable (true) to receive notifications when a new update is available
+language: en # Language file to use (enter filename without .yml)
+
+# Available Language Codes:
+#   en      → English
+#   zh_CN   → Chinese (Simplified)
+#   es_ES   → Spanish
+#   fr_FR   → French
+#   de_DE   → German
+#   ja_JP   → Japanese
+#   pt_BR   → Portuguese (Brazil)
+#   ru_RU   → Russian
+#   ko_KR   → Korean
+#   it_IT   → Italian
+#   pl_PL   → Polish
+#   tr_TR   → Turkish
+#   hi      → Hindi
+#   hi_en   → Hinglish
+
+settings:
+  autoname-item: true # If true, the item will use its default name; if false, a custom message from the language file will be used

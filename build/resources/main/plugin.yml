@@ -1,0 +1,26 @@
+name: Evolution_Mine
+version: '3.0.0'
+main: com.corruptedgamer.evolution_Mine.Evolution_Mine
+api-version: '1.21'
+load: STARTUP
+authors: [ Corrupted Gamer ]
+
+depend:
+  - Citizens
+  - WorldEdit
+  - WorldGuard
+
+softdepend:
+
+  - PlaceholderAPI
+commands:
+  evo:
+    description: Main Command for Evolution-Mine
+    usage: /evo <subcommand>
+
+
+permissions:
+  evomine.admin:
+    description: Allows the player to use all admin commands of Evolution-Mine
+    default: op
+

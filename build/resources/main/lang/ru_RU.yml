@@ -1,0 +1,55 @@
+stop-spam: "&c⏳ Пожалуйста, подождите перед повторным взаимодействием." # This is the message that comes when a player spam clicks on NPC.
+
+already-max: "&e⬆ Эта шахта уже на МАКСИМАЛЬНОМ уровне." # This message will come if player tries to donate but mine already at max level.
+
+reached-max: "&a🎉 Шахта достигла максимального уровня!" # This message will come when player donates and mine reaches max level.
+
+missing-setitem: "&4❌ Свяжитесь с администратором и скажите ему установить предмет для " # This message will come if no item is set for that mine. To set it, run /evo mine setitem (minename)
+
+no-item: # When player doesn't have required item
+  complete: "&cУ вас нет требуемого специального предмета" # Plugin will not automatically put item name; it will send this complete message instead.
+  before-itemname: "&cУ вас нет &6" # Plugin will automatically put item name here. Example - You don't have any IRON to donate.
+  after-itemname: "&c для пожертвования."
+
+have-item:
+  asking: "&6Сколько вы хотите пожертвовать? &eНапишите число в чат." # Asking how many items player wants to donate.
+  telling:
+    msg: "&aУ вас есть &6" # It gives output like - You have (number) (itemname stored in minecraft).
+    complete-before: "&aУ вас есть &6" # Here will come the count of items.
+    complete-after: "&a вы можете дать мне для улучшения шахты."
+
+interact-again: "&a✓ Вы можете взаимодействовать снова." # Message that player can interact again with NPC.
+
+no-session: "&cАктивная сессия пожертвования не найдена. &6Нажмите на NPC снова." # If player uses /evo yes or no and they talked with NPC a while ago, NPC is no longer in session. Player needs to click again.
+
+invalid-number: "&cПожалуйста, введите &6положительное число&c." # If after running /evo yes, player types a letter or negative value.
+
+invalid-item: "&4❌ Предмет, настроенный для этой шахты, недействителен. Свяжитесь с администратором." # If item name was removed from config file.
+
+big-number:
+  have: "&cУ вас только &6" # This tells how many items they have when they enter more than available.
+  not-have: "&cУ вас нет столько &6" # Then material/item name will come automatically (if autoname-item is true).
+  custom-msg: "&cУ вас недостаточно специальных предметов&c." # Complete owner message will be displayed (no minecraft material name, used when autoname-item is false).
+
+lvl-config-missing: "&4❌ Конфигурация уровня отсутствует для уровня &6" # Level number will be inserted here.
+lvl-config-missing-after: "&4❌. Свяжитесь с администратором."
+
+mine-upgraded: "&a✓ Шахта улучшена до уровня &6" # Level number will be inserted here.
+mine-upgraded-after: "&a!" # Owner can customize this (e.g., change ! to something else).
+
+mine-not-config: "&4❌ Шахта неправильно сконфигурирована. Свяжитесь с администратором."
+
+item-accepted: "&a✓ Пожертвование принято. Прогресс: &6" # Then number of items player donated / items needed will come.
+
+only-need: "&eТолько &6" # Number of items needed to max.
+only-need-after: "&e предметов были необходимы для максимизации шахты."
+
+remain: "&eВаши оставшиеся &6" # Number of items remaining in inventory.
+remain-after: "&e предметы не были использованы."
+
+not-valid: "&cОшибка: '&6" # The input from user will be here.
+not-valid-after: "&c' не является допустимым числом."
+
+enter-number-number-of-item: "&6Введите количество предметов для пожертвования." # When player runs /evo yes.
+
+cancel: "&e❌ Процесс пожертвования отменен." # When player runs /evo no.
